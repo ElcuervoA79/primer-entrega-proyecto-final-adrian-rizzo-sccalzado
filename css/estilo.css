@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header section{
+    background-color: darksalmon;
+}
+header section img{
+    width: 30rem;
+    height: 20rem;
+    border-radius: 1rem;
+    margin: 5rem;
+
+}
+header div{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 2rem 0;
+}
+header div img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 20rem;
+    display: inline;
+}
+
+header h1{
+    display: inline;
+    font-size: 5rem;
+    color: black;
+    text-decoration: double;    
+    
+}
+
+header nav{
+    background-color: black;
+    width: 100%;
+    height: 3rem;
+}
+
+header nav ul li{
+    display: inline;
+    margin: 3rem;
+    padding: 1rem;
+    border: 1rem;
+    font-size: 2rem;
+}
+
+header nav ul li a{
+    color: aliceblue;
+    font-size: 1em;
+    text-decoration: none;
+    text-decoration:solid;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.estiloTexto__enComun{
+    color: rgb(0, 0, 0);
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    display:block;
+    padding: 3rem;
+
+}
+
+.tamañoImagenesDePaginas--{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 20rem;
+    border-radius: 2rem;
+    margin:5rem;
+
+}
+    
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    background-color: rgba(126, 107, 107, 0.815);
+    
+
+}
+
+footer section p{
+    color:black;
+    font-size: 1em;
+}
+
